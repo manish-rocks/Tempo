@@ -1,0 +1,33 @@
+h1
+{
+    color: brown;
+    text-align: center;
+}
+footer{
+    color: black;
+    height: 2em;
+    width: 40%;
+    background-color:darkcyan;
+    align-self: auto;
+    position: relative;
+    left: 30%;
+}
+#operand2{
+    text-align: right;
+    position: relative;
+    bottom: 2em;
+}
+#operand1{
+    text-align: left;
+    line-height: 1em;
+}
+section{
+    color: white;
+    text-align: center;
+    background-color: darkcyan;
+    width: 50%;
+    position: relative;
+    left:25%;
+
+    
+}

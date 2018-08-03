@@ -1,0 +1,15 @@
+var userName =window.prompt("please enter your name ");
+var greetingParagraph=document.getElementById("greeting");
+greetingParagraph.innerHTML+=","+userName;
+var num1 =parseInt( window.prompt("enter a number"));
+var num2 =parseInt(window.prompt("enter other no."));
+var operand1=document.getElementById("operand1");
+var operand2=document.getElementById("operand2");
+operand1.innerHTML+=num1;
+operand2.innerHTML+=num2;
+var sum = num1 + num2;
+document.getElementById("addition").innerHTML=" the sum of "+num1+" and "+num2+" is "+sum;
+document.getElementById("subtraction").innerHTML=" the sub of "+num1+" and "+num2+" is "+(num1-num2)
+document.getElementById("multiplication").innerHTML=" the mult.  "+num1+" and "+num2+" is "+(num1*num2)
+document.getElementById("division").innerHTML=" the div of "+num1+" and "+num2+" is "+(num1+num2)
+document.getElementById("modulus").innerHTML=" the modulo of "+num1+" and "+num2+" is "+(num1%num2)

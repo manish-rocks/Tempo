@@ -1,5 +1,7 @@
 body{
-    background-color: purple;
+    background-color:white;
+    margin: 10em;
+    
 }
 ul{
     background-color: silver;
@@ -9,4 +11,8 @@ h1{
 }
 p{
 color: fuchsia;
+padding:2em;
+background-color: pink;
+border: 0ch;
+margin: 0%;
 }
